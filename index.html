@@ -1,19 +1,19 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sp">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Parallax Scrolling Website HTML CSS & Javascript | How to Make Parallax Website</title>
+    <link rel="stylesheet" href="css/style.css">
     <script src="app.js" type="module" defer></script>
-    <link rel="stylesheet" href="style.css">
-    <!-- <img src="background.png" alt=""> -->
 </head>
 <body>
     <div id="app">
-        {{config.id}}
-        <my-page :config="config"></my-page>
-
+        <my-colum-left :left="left"></my-colum-left>
+        <my-colum-right :right="right"></my-colum-right>
+        <my-img :img="img"></my-img>
     </div>
 </body>
 </html>
